@@ -24,8 +24,6 @@ A clean, lightweight **Pomodoro Timer** app with built-in **task management**, *
 
 > ⚡ *Click to try locally — open `index.html` in your browser*
 
-![Pomodoro App Preview](preview.png)
-
 ---
 
 ## 📁 Project Structure
