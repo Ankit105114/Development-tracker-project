@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Timer App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="icon purple"></div>
+      <div class="icon pink"></div>
+      <div class="icon blue"></div>
+      <div class="icon green"></div>
+      <div class="icon yellow"></div>
+    </aside>
+
+    <main class="main">
+      <div class="header">
+        <h1>Today's Tasks</h1>
+        <div class="theme-toggle" onclick="toggleTheme()">🌓</div>
+      </div>
+
+      <div class="task-input">
+        <input type="text" id="task-input" placeholder="What's on your list today?">
+        <button id="add-task-btn">Add</button>
+      </div>
+
+      <div class="tasks">
+        <div class="task-block">
+          <h3><span id="task-count">0</span> Tasks</h3>
+          <p id="no-task-msg">You don't have any tasks today.</p>
+          <ul id="task-list"></ul>
+        </div>
+        <div class="task-block">
+          <h3><span id="completed-count">0</span> Completed</h3>
+          <p id="no-completed-msg">You haven't finished any tasks yet.</p>
+          <ul id="completed-list"></ul>
+        </div>
+      </div>
+    </main>
+
+    <aside class="timer-panel">
+      <div class="datetime">
+        <span>25-minute focus timer</span>
+        <div class="date-box">Focus Time</div>
+      </div>
+
+      <div class="mode-toggle">
+        <button class="active">Pomodoro</button>
+        <button>Break</button>
+      </div>
+
+      <div class="timer">
+        <div class="circle">25:00</div>
+        <div class="timer-controls">
+          <button id="reset-btn">🔄</button>
+          <button id="start-pause-btn">▶</button>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
