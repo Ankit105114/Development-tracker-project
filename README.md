@@ -20,12 +20,6 @@ A clean, lightweight **Pomodoro Timer** app with built-in **task management**, *
 
 ---
 
-## 💡 Preview
-
-> ⚡ *Click to try locally — open `index.html` in your browser*
-
----
-
 ## 📁 Project Structure
 
 ```bash
@@ -33,4 +27,3 @@ A clean, lightweight **Pomodoro Timer** app with built-in **task management**, *
 ├── index.html       # Main UI layout
 ├── style.css        # Theme and layout styling
 ├── script.js        # Functional logic and event handling
-└── preview.png      # (Optional) Screenshot for README preview
